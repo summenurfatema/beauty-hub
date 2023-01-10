@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { AiOutlineCaretDown, AiOutlineCloseCircle } from 'react-icons/ai'
+import { AiOutlineCloseCircle } from 'react-icons/ai'
+import { BsChevronDoubleDown } from 'react-icons/bs'
 
 const Download = () => {
     const [visible, setVisible] = useState(false)
@@ -18,7 +19,7 @@ const Download = () => {
                     visible ?
                         <AiOutlineCloseCircle className='text-4xl' onClick={() => setVisible(false)}>Hide</AiOutlineCloseCircle>
                         :
-                        <AiOutlineCaretDown className='absolute top-0 right-0 text-2xl' onClick={() => setVisible(true)}>Show</AiOutlineCaretDown>
+                        <BsChevronDoubleDown className='absolute top-0 right-0 text-2xl' onClick={() => setVisible(true)}>Show</BsChevronDoubleDown>
                 }
 
 
