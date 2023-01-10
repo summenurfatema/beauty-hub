@@ -5,6 +5,7 @@ import { FaSistrix } from 'react-icons/fa'
 import { BsPerson, BsBagPlus, BsJustify } from 'react-icons/bs'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 import { BiPhone } from 'react-icons/bi'
+import { Link } from "react-router-dom";
 
 
 
@@ -18,7 +19,12 @@ const NavBar = () => {
             <div>
                 <div class="bg-gray-900">
                     <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-                        <div class="relative flex items-center justify-between">
+                        <div class="relative flex  items-center justify-between">
+
+                            <div>
+                                <BsBagPlus className="text-2xl lg:hidden text-white" />
+                            </div>
+
                             <a
                                 href="/"
                                 className="inline-flex items-center"
@@ -30,39 +36,39 @@ const NavBar = () => {
                             </a>
                             <ul class="flex items-center hidden space-x-8 lg:flex">
                                 <li>
-                                    <a
-                                        href="/"
+                                    <Link
+                                        to="/"
                                         className="font-xl tracking-wide text-gray-100 uppercase transition-colors duration-200 hover:text-teal-accent-400"
                                     >
                                         Skin care
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
-                                        href="/"
+                                    <Link
+                                        to="/"
 
                                         className="font-xl tracking-wide text-gray-100 uppercase transition-colors duration-200 hover:text-teal-accent-400"
                                     >
                                         Treatmemt
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
-                                        href="/"
+                                    <Link
+                                        to="/"
 
                                         className="font-xl tracking-wide text-gray-100 uppercase transition-colors duration-200 hover:text-teal-accent-400"
                                     >
                                         Special offer
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
-                                        href="/"
+                                    <Link
+                                        to="/"
 
                                         className="font-xl tracking-wide text-gray-100 uppercase transition-colors duration-200 hover:text-teal-accent-400"
                                     >
                                         New arrival
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
                                     <button className="text-xl font-semibold px-4 py-2 bg-yellow-500 rounded-md text-white">APPOINTMENT</button>
@@ -82,6 +88,8 @@ const NavBar = () => {
                                 </li>
                             </ul>
                             <div class="lg:hidden">
+
+
                                 <button
 
                                     className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline"
@@ -89,6 +97,8 @@ const NavBar = () => {
                                 >
                                     <BsJustify className="text-2xl text-white" />
                                 </button>
+
+
                                 {isMenuOpen && (
                                     <div class="transform top-0 left-0 w-72 bg-gray-800 fixed h-full overflow-auto ease-in-out transition-all duration-1000">
                                         <div class="p-5 border rounded shadow-sm">
@@ -100,7 +110,7 @@ const NavBar = () => {
                                                         class="inline-flex items-center"
                                                     >
 
-                                                        <span class="ml-2 text-xl font-bold tracking-wide text-yellow-500 uppercase">
+                                                        <span class="ml-2 text-xl font-bold  text-yellow-500 uppercase">
                                                             Beauty Hub
                                                         </span>
                                                     </a>
@@ -111,101 +121,104 @@ const NavBar = () => {
                                                         class="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                                                         onClick={() => setIsMenuOpen(false)}
                                                     >
-                                                        <AiOutlineCloseCircle />
+                                                        <AiOutlineCloseCircle className="text-2xl text-white" />
                                                     </button>
                                                 </div>
                                             </div>
                                             <nav>
                                                 <ul class="space-y-4">
                                                     <li>
-                                                        <a
-                                                            href="/"
+                                                        <input placeholder="Search here" className="w-full py-2 pl-3 bg-gray-800 border-2  border-white rounded-md" />
+                                                    </li>
+                                                    <li>
+                                                        <Link
+                                                            to="/"
 
                                                             className="font-lg text-white transition-colors duration-200 hover:text-yellow-500"
                                                         >
                                                             SKIN CARE
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="/"
+                                                        <Link
+                                                            to="/"
 
                                                             className="font-lg text-white transition-colors duration-200 hover:text-yellow-500"
                                                         >
                                                             TREATMENR
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="/"
+                                                        <Link
+                                                            to="/"
 
                                                             className="font-lg text-white transition-colors duration-200 hover:text-yellow-500"
                                                         >
                                                             SPECIAL OFFER
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="/"
+                                                        <Link
+                                                            to="/"
 
                                                             className="font-lg text-white transition-colors duration-200 hover:text-yellow-500"
                                                         >
                                                             NEW ARRIVAL
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="/"
+                                                        <Link
+                                                            to="/"
 
                                                             className="font-lg text-white transition-colors duration-200 hover:text-yellow-500"
                                                         >
                                                             ABOUT US
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="/"
+                                                        <Link
+                                                            to="/"
 
                                                             className="font-lg text-white transition-colors duration-200 hover:text-yellow-500"
                                                         >
                                                             CONTACT
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="/"
+                                                        <Link
+                                                            to="/"
 
                                                             className="font-lg text-white transition-colors duration-200 hover:text-yellow-500"
                                                         >
                                                             BEAUTY HUB
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="/"
+                                                        <Link
+                                                            to="/"
 
                                                             className="font-lg text-white transition-colors duration-200 hover:text-yellow-500"
                                                         >
                                                             NEWS & EVENTS
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="/"
+                                                        <Link
+                                                            to="/"
 
                                                             className="font-lg text-white transition-colors duration-200 hover:text-yellow-500"
                                                         >
                                                             BLOG
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="/"
+                                                        <Link
+                                                            to="/"
 
                                                             className="font-lg text-white transition-colors duration-200 hover:text-yellow-500"
                                                         >
                                                             VIDEO TIPS
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
                                                         <button className="text-xl font-semibold px-4 py-2 bg-yellow-500 rounded-md">Job Apply</button>
