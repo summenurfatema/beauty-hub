@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Download from "../Download/Download";
 import TopNav from "../TopNav/TopNav";
+import { FaSistrix } from 'react-icons/fa'
+import { BsPerson, BsBagPlus } from 'react-icons/bs'
 
 
 const NavBar = () => {
@@ -65,16 +67,15 @@ const NavBar = () => {
 
                             </ul>
 
-                            <ul class="flex items-center hidden space-x-8 lg:flex">
+                            <ul class="flex items-center hidden space-x-4 lg:flex">
                                 <li>
-                                    <a
-                                        href="/"
-                                        class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                                        aria-label="Sign up"
-                                        title="Sign up"
-                                    >
-                                        Sign up
-                                    </a>
+                                    <FaSistrix className="text-4xl text-white" />
+                                </li>
+                                <li>
+                                    <BsPerson className="text-4xl text-white" />
+                                </li>
+                                <li>
+                                    <BsBagPlus className="text-4xl text-white" />
                                 </li>
                             </ul>
                             <div class="lg:hidden">
