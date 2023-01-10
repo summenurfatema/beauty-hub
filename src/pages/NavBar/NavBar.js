@@ -27,7 +27,7 @@ const NavBar = () => {
                                 <li>
                                     <a
                                         href="/"
-                                        className="font-medium tracking-wide text-gray-100 uppercase transition-colors duration-200 hover:text-teal-accent-400"
+                                        className="font-xl tracking-wide text-gray-100 uppercase transition-colors duration-200 hover:text-teal-accent-400"
                                     >
                                         Skin care
                                     </a>
@@ -36,7 +36,7 @@ const NavBar = () => {
                                     <a
                                         href="/"
 
-                                        className="font-medium tracking-wide text-gray-100 uppercase transition-colors duration-200 hover:text-teal-accent-400"
+                                        className="font-xl tracking-wide text-gray-100 uppercase transition-colors duration-200 hover:text-teal-accent-400"
                                     >
                                         Treatmemt
                                     </a>
@@ -45,7 +45,7 @@ const NavBar = () => {
                                     <a
                                         href="/"
 
-                                        className="font-medium tracking-wide text-gray-100 uppercase transition-colors duration-200 hover:text-teal-accent-400"
+                                        className="font-xl tracking-wide text-gray-100 uppercase transition-colors duration-200 hover:text-teal-accent-400"
                                     >
                                         Special offer
                                     </a>
@@ -53,14 +53,18 @@ const NavBar = () => {
                                 <li>
                                     <a
                                         href="/"
-                                        aria-label="About us"
-                                        title="About us"
-                                        class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+
+                                        className="font-xl tracking-wide text-gray-100 uppercase transition-colors duration-200 hover:text-teal-accent-400"
                                     >
-                                        About us
+                                        New arrival
                                     </a>
                                 </li>
+                                <li>
+                                    <button className="text-xl font-semibold px-4 py-2 bg-yellow-500 rounded-md text-white">APPOINTMENT</button>
+                                </li>
+
                             </ul>
+
                             <ul class="flex items-center hidden space-x-8 lg:flex">
                                 <li>
                                     <a
