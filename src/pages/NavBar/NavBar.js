@@ -29,8 +29,9 @@ const NavBar = () => {
                                 href="/"
                                 className="inline-flex items-center"
                             >
+                                <img src='assets/logo.png' className='h-8 w-14 md:h-20 md:w-24 lg:w-28 lg:-ml-32' alt='logo' />
 
-                                <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+                                <span class=" text-xl lg:text-2xl font-bold text-yellow-400 -ml-4">
                                     Beauty Hub
                                 </span>
                             </a>
@@ -71,7 +72,7 @@ const NavBar = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <button className="text-xl font-semibold px-4 py-2 bg-yellow-500 rounded-md text-white">APPOINTMENT</button>
+                                    <button className="text-xl font-semibold px-4 py-2 bg-yellow-500 rounded-md text-white hover:mb-3 hover:bg-white hover:text-yellow-500">APPOINTMENT</button>
                                 </li>
 
                             </ul>
@@ -109,8 +110,8 @@ const NavBar = () => {
 
                                                         class="inline-flex items-center"
                                                     >
-
-                                                        <span class="ml-2 text-xl font-bold  text-yellow-500 uppercase">
+                                                        <img src='assets/logo.png' className='h-12 w-14' alt='logo' />
+                                                        <span class="-ml-2 text-xl font-bold  text-yellow-500">
                                                             Beauty Hub
                                                         </span>
                                                     </a>
@@ -190,7 +191,7 @@ const NavBar = () => {
 
                                                             className="font-lg text-white transition-colors duration-200 hover:text-yellow-500"
                                                         >
-                                                            BEAUTY HUB
+                                                            BEAUTY HUB LOCATION
                                                         </Link>
                                                     </li>
                                                     <li>

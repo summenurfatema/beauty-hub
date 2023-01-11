@@ -5,7 +5,7 @@ import { BiPhone } from 'react-icons/bi'
 const TopNav = () => {
     return (
         <div className='hidden lg:block'>
-            <div className='flex justify-between items-center mt-6 px-6 py-3 bg-sky-400'>
+            <div className='flex justify-between items-center -mt-2 px-6 py-3'>
                 <p className='text-lg'><BiPhone className='inline-block' /> Help line 01755-660522</p>
 
                 <nav>
