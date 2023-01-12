@@ -18,7 +18,7 @@ const NavBar = () => {
             <TopNav />
             <div>
                 <div class="bg-gray-900">
-                    <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+                    <div class="px-4 -py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                         <div class="relative flex  items-center justify-between">
 
                             <div>
@@ -82,10 +82,20 @@ const NavBar = () => {
                                     <FaSistrix className="text-4xl text-white" />
                                 </li>
                                 <li>
-                                    <BsPerson className="text-4xl text-white" />
+                                    {/* <BsPerson className="text-4xl text-white" /> */}
+
+                                    <div className="dropdown">
+                                        <label tabIndex={0} className=" text-white text-4xl m-1"><BsPerson /></label>
+                                        <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-rose-200 absolute top-20 -right-20 w-[300px] mt-8 space-y-6">
+
+                                            <li className="text-2xl font-semibold text-yellow-500 tracking-wider uppercase"><>Login</></li>
+                                            <li className="text-2xl font-semibold text-yellow-500 tracking-wider uppercase"><>Registration</></li>
+                                        </ul>
+                                    </div>
+
                                 </li>
                                 <li>
-                                    <BsBagPlus className="text-4xl text-white" />
+                                    <BsBagPlus className="text-4xl text-white " />
                                 </li>
                             </ul>
                             <div class="lg:hidden">
