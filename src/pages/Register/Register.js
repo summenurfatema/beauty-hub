@@ -41,11 +41,16 @@ const Register = () => {
                     </div>
                     <button className='w-full py-3 text-xl font-semibold bg-brown text-white rounded-md'>Create Account</button>
                 </form>
-                <div className="divider">Or Join with</div>
+                <div className="divider text-lg text-gray-500">Or Join with</div>
                 <div>
-                    <div className='flex justify-center items-center pt-2'>
-                        <FaFacebookF className='text-3xl bg-blue-700 rounded-full text-white' />
-                        <FaGooglePlusG className='text-3xl mx-5 bg-red-700 rounded-full text-white' />
+                    <div className='flex justify-center items-center space-x-5'>
+                        <div className='bg-blue-600 rounded-full w-8 h-8 flex justify-center items-center'>
+                            <FaFacebookF className='text-xl   text-white' />
+                        </div>
+
+                        <div className='bg-red-600 rounded-full w-8 h-8 flex justify-center items-center'>
+                            <FaGooglePlusG className='text-xl   text-white' />
+                        </div>
 
                     </div>
                     <p className='text-xl text-gray-500 text-center pt-3 pb-2'>Already have an account?</p>
