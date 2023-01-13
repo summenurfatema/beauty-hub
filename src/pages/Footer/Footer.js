@@ -163,34 +163,22 @@ const Footer = () => {
             </div>
 
             <div>
-                <p class="font-medium text-gray-900">Legal</p>
+                <p class="font-medium text-gray-900">Corporate Office:</p>
 
                 <nav aria-label="Footer Navigation - Legal" class="mt-6">
-                    <ul class="space-y-4 text-base">
-                        <li>
-                            <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                Accessibility
-                            </a>
-                        </li>
+                    <div>
+                        <p>Level 4, Mirpur DOHS Cultural Center</p>
+                        <p>Road No-09, Mirpur DOHS,</p>
+                        <p>Road No-09, Mirpur DOHS,</p>
+                        <div className='flex justify-around'>
+                            <button className='bg-red-500 px-2 py-3'>CALL US</button>
+                            <button className='bg-red-500 px-2 py-3'>EMAIL US</button>
 
-                        <li>
-                            <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                Returns Policy
-                            </a>
-                        </li>
+                        </div>
 
-                        <li>
-                            <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                Refund Policy
-                            </a>
-                        </li>
+                        <button className='bg-red-500 px-2 py-3'>Appoinment</button>
 
-                        <li>
-                            <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                Hiring Statistics
-                            </a>
-                        </li>
-                    </ul>
+                    </div>
                 </nav>
             </div>
 
