@@ -2,89 +2,90 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            <div
-                class="grid grid-cols-1 gap-8 pt-8 border-t border-gray-100 base:grid-cols-2 lg:grid-cols-4 lg:pt-16"
-            >
-                <div>
-                    <p class="font-medium text-brown">ABOUT US</p>
 
-                    <nav aria-label="Footer Navigation - Services" class="mt-6">
-                        <ul class="space-y-4 text-base">
-                            <li>
-                                <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    About Beauty Hub
-                                </a>
-                            </li>
+        <div
+            class="grid grid-cols-1 gap-8 pt-8 border-t border-gray-100 base:grid-cols-2 lg:grid-cols-4 lg:pt-16"
+        >
+            <div>
+                <p class="font-medium text-brown">ABOUT US</p>
 
-                            <li>
-                                <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    News & Events
-                                </a>
-                            </li>
+                <nav aria-label="Footer Navigation - Services" class="mt-6">
+                    <ul class="space-y-4 text-base">
+                        <li>
+                            <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                About Beauty Hub
+                            </a>
+                        </li>
 
-                            <li>
-                                <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Skin Care Blog
-                                </a>
-                            </li>
+                        <li>
+                            <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                News & Events
+                            </a>
+                        </li>
 
-                            <li>
-                                <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Our Location
-                                </a>
-                            </li>
+                        <li>
+                            <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                Skin Care Blog
+                            </a>
+                        </li>
 
-                            <li>
-                                <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Contact Us
-                                </a>
-                                <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Submit Your Complain
-                                </a>
-                                <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Contact Us
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+                        <li>
+                            <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                Our Location
+                            </a>
+                        </li>
 
-                <div>
-                    <p class="font-medium text-brown">MY ACCOUNT</p>
+                        <li>
+                            <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                Contact Us
+                            </a>
+                            <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                Submit Your Complain
+                            </a>
+                            <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
 
-                    <nav aria-label="Footer Navigation - Company" class="mt-6">
-                        <ul class="space-y-4 text-base">
-                            <li>
-                                <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Login
-                                </a>
-                            </li>
+            <div>
+                <p class="font-medium text-brown">MY ACCOUNT</p>
 
-                            <li>
-                                <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Order History
-                                </a>
-                            </li>
+                <nav aria-label="Footer Navigation - Company" class="mt-6">
+                    <ul class="space-y-4 text-base">
+                        <li>
+                            <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                Login
+                            </a>
+                        </li>
 
-                            <li>
-                                <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Track Order
-                                </a>
-                            </li>
-                            <li>
-                                <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Earn Money
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+                        <li>
+                            <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                Order History
+                            </a>
+                        </li>
 
-                <div>
-                    <p class="font-medium text-gray-900">FIND OUR BRANCH LOCATION</p>
+                        <li>
+                            <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                Track Order
+                            </a>
+                        </li>
+                        <li>
+                            <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                Earn Money
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
 
-                    <nav aria-label="Footer Navigation - Company flex space-x-4" class="mt-6">
+            <div>
+                <p class="font-medium text-gray-900">FIND OUR BRANCH LOCATION</p>
+
+                <nav aria-label="Footer Navigation - Company" class="mt-6">
+                    <div className='flex space-x-4'>
                         <ul class="space-y-4 text-base">
                             <li>
                                 <a href=" " class="text-gray-700 transition hover:opacity-75">
@@ -130,68 +131,71 @@ const Footer = () => {
 
                             <li>
                                 <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    MIRPUR
+                                    SYLHET
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    UTTARA
+                                    RAJSHAHI
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    SHANTINAGAR
+                                    CHATTOGRAM
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    BASHUNDHARA CITY
+                                    WARI
                                 </a>
                             </li>
                             <li>
                                 <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    GAZIPUR
+                                    BANANI
                                 </a>
                             </li>
                         </ul>
-                    </nav>
-                </div>
-
-                <div>
-                    <p class="font-medium text-gray-900">Legal</p>
-
-                    <nav aria-label="Footer Navigation - Legal" class="mt-6">
-                        <ul class="space-y-4 text-base">
-                            <li>
-                                <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Accessibility
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Returns Policy
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Refund Policy
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Hiring Statistics
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+                    </div>
+                </nav>
             </div>
+
+            <div>
+                <p class="font-medium text-gray-900">Legal</p>
+
+                <nav aria-label="Footer Navigation - Legal" class="mt-6">
+                    <ul class="space-y-4 text-base">
+                        <li>
+                            <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                Accessibility
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                Returns Policy
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                Refund Policy
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                Hiring Statistics
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+
 
             <p class="text-xs text-gray-500">
                 &copy; 2022. Company Name. All rights reserved.
