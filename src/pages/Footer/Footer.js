@@ -7,63 +7,43 @@ const Footer = () => {
                 class="grid grid-cols-1 gap-8 pt-8 border-t border-gray-100 base:grid-cols-2 lg:grid-cols-4 lg:pt-16"
             >
                 <div>
-                    <p class="font-medium text-gray-900">Services</p>
+                    <p class="font-medium text-brown">ABOUT US</p>
 
                     <nav aria-label="Footer Navigation - Services" class="mt-6">
                         <ul class="space-y-4 text-base">
                             <li>
                                 <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    1on1 Coaching
+                                    About Beauty Hub
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Company Review
+                                    News & Events
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Accounts Review
+                                    Skin Care Blog
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    HR Consulting
+                                    Our Location
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    SEO Optimisation
+                                    Contact Us
                                 </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-
-                <div>
-                    <p class="font-medium text-gray-900">Company</p>
-
-                    <nav aria-label="Footer Navigation - Company" class="mt-6">
-                        <ul class="space-y-4 text-base">
-                            <li>
                                 <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    About
+                                    Submit Your Complain
                                 </a>
-                            </li>
-
-                            <li>
                                 <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Meet the Team
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Accounts Review
+                                    Contact Us
                                 </a>
                             </li>
                         </ul>
@@ -71,25 +51,109 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <p class="font-medium text-gray-900">Helpful Links</p>
+                    <p class="font-medium text-brown">MY ACCOUNT</p>
 
                     <nav aria-label="Footer Navigation - Company" class="mt-6">
                         <ul class="space-y-4 text-base">
                             <li>
                                 <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Contact
+                                    Login
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    FAQs
+                                    Order History
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-700 transition hover:opacity-75">
-                                    Live Chat
+                                    Track Order
+                                </a>
+                            </li>
+                            <li>
+                                <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                    Earn Money
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div>
+                    <p class="font-medium text-gray-900">FIND OUR BRANCH LOCATION</p>
+
+                    <nav aria-label="Footer Navigation - Company flex space-x-4" class="mt-6">
+                        <ul class="space-y-4 text-base">
+                            <li>
+                                <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                    DHANMONDI
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                    MIRPUR
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                    UTTARA
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                    SHANTINAGAR
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                    BASHUNDHARA CITY
+                                </a>
+                            </li>
+                            <li>
+                                <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                    GAZIPUR
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="space-y-4 text-base">
+                            <li>
+                                <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                    NARAYNGANJ
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                    MIRPUR
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                    UTTARA
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                    SHANTINAGAR
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                    BASHUNDHARA CITY
+                                </a>
+                            </li>
+                            <li>
+                                <a href=" " class="text-gray-700 transition hover:opacity-75">
+                                    GAZIPUR
                                 </a>
                             </li>
                         </ul>
