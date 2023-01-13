@@ -87,7 +87,9 @@ const NavBar = () => {
                                     <div className="dropdown">
                                         <label tabIndex={0} className=" text-white text-4xl m-1"><BsPerson /></label>
                                         <ul tabIndex={0} className="dropdown-content menu  shadow bg-white rounded-lg p-5 absolute top-20 -right-20 w-[300px] mt-8 space-y-6">
-                                            <li className="text-2xl font-semibold text-yellow-500 tracking-wider uppercase"><>Login</></li>
+                                            <Link to='/login'>
+                                                <li className="text-2xl font-semibold text-yellow-500 tracking-wider uppercase"><>Login</></li>
+                                            </Link>
 
                                             <Link to='/register'>
 
