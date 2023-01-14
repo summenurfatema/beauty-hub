@@ -7,9 +7,9 @@ const Register = () => {
     const [phone, setPhone] = useState(false)
 
     return (
-        <div className='flex flex-col justify-center items-center bg-gray-100 py-10'>
-            <div className='w-[600px] bg-white pb-7'>
-                <h1 className='text-gray-800 text-center font-bold text-3xl py-7'>Create an account</h1>
+        <div className='flex flex-col justify-center items-center bg-gray-100 px-5 py-10'>
+            <div className='w-96 md:w-[600px] bg-white pb-7'>
+                <h1 className='text-gray-800 text-center font-bold text-2xl md:text-3xl py-7'>Create an account</h1>
                 <form className='px-8 py-7 space-y-5'>
                     <input placeholder='Full name' className='border-2 py-4 border-red w-full rounded-md text-xl pl-5' />
 
@@ -37,7 +37,7 @@ const Register = () => {
 
                     <div>
                         <input type='checkbox' className='w-5 h-5' />
-                        <p className='inline-block pl-5 text-xl text-gray-400'> By signing up you agree to our terms and conditions.</p>
+                        <p className='inline-block text-lg pl-5 md:text-xl text-gray-400'> By signing up you agree to our terms and conditions.</p>
                     </div>
                     <button className='w-full py-3 text-xl font-semibold bg-brown text-white rounded-md'>Create Account</button>
                 </form>
