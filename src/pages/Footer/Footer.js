@@ -4,9 +4,9 @@ const Footer = () => {
     return (
 
         <div
-            class="grid grid-cols-1 gap-8 pt-8 border-t border-gray-100 base:grid-cols-2 lg:grid-cols-4 lg:pt-16"
+            class="grid grid-cols-1 gap-5 pt-8 border-t border-gray-100 base:grid-cols-2 lg:grid-cols-4 lg:pt-16 bg-black pl-6"
         >
-            <div>
+            <div classNam=''>
                 <p class="font-medium text-brown">ABOUT US</p>
 
                 <nav aria-label="Footer Navigation - Services" class="mt-6">
@@ -18,7 +18,7 @@ const Footer = () => {
                         </li>
 
                         <li>
-                            <a href=" " class="text-gray-700 transition hover:opacity-75">
+                            <a href=" " class="text-gray-100 transition hover:opacity-75">
                                 News & Events
                             </a>
                         </li>
@@ -185,9 +185,7 @@ const Footer = () => {
 
 
 
-            <p class="text-xs text-gray-500">
-                &copy; 2022. Company Name. All rights reserved.
-            </p>
+
         </div>
 
 
