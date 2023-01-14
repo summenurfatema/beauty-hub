@@ -170,13 +170,13 @@ const Footer = () => {
                         <p className='text-gray-100 text-base transition hover:opacity-75'>Level 4, Mirpur DOHS Cultural Center</p>
                         <p className='text-gray-100 text-base transition hover:opacity-75'>Road No-09, Mirpur DOHS,</p>
                         <p className='text-gray-100 text-base transition hover:opacity-75'>Mirpur 12, Dhaka-1216</p>
-                        <div className='flex justify-around'>
-                            <button className='bg-red-500 px-2 py-3'>CALL US</button>
-                            <button className='bg-red-500 px-2 py-3'>EMAIL US</button>
+                        <div className='flex space-x-4 py-3'>
+                            <button className='bg-gray-100 rounded-md px-3 py-2'>CALL US</button>
+                            <button className='bg-gray-100 rounded-md px-3 py-2'>EMAIL US</button>
 
                         </div>
 
-                        <button className='bg-red-500 px-2 py-3'>Appoinment</button>
+                        <button className='bg-brown text-white rounded-md px-3 py-2'>Appoinment</button>
 
                     </div>
                 </nav>
