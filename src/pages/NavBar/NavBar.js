@@ -6,6 +6,7 @@ import { BsPerson, BsBagPlus, BsJustify } from 'react-icons/bs'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 import { BiPhone } from 'react-icons/bi'
 import { Link } from "react-router-dom";
+import {SlNotebook} from 'react-icons/sl'
 
 
 
@@ -93,8 +94,18 @@ const NavBar = () => {
 
                                             <Link to='/register'>
 
-                                                <li className="text-2xl font-semibold text-yellow-500 tracking-wider uppercase"><>Registration</></li>
+                                                <li className="text-2xl font-semibold text-yellow-500 tracking-wider uppercase"> <>Registration</></li>
                                             </Link>
+                                            <li>
+                                                <div className='flex -ml-5'>
+                                                <img src='assets/block.png' className=' h-8 w-10' alt=' '/> <p className='text-2xl font-semibold text-yellow-500 tracking-wider uppercase'>My Wallet</p>
+                                                </div>
+                                                </li>
+                                            <li className=''>
+                                                <div className='flex -ml-5 -mt-5'>
+                                                <img src='assets/file.png' className=' h-8 w-10' alt=' '/> <p className='text-2xl font-semibold text-yellow-500 tracking-wider uppercase'>Orders</p>
+                                                </div>
+                                                </li>
                                         </ul>
                                     </div>
 
