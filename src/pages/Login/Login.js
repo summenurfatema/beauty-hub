@@ -6,13 +6,13 @@ import { Link } from 'react-router-dom';
 const Login = () => {
     return (
         <div className='flex flex-col justify-center items-center bg-gray-100 py-10'>
-            <div className='w-96 md:w-[600px] bg-white px-3 pb-7'>
+            <div className='w-full md:w-[600px] bg-white px-3 pb-7'>
                 <h1 className='text-gray-800 text-center font-bold text-2xl md:text-3xl py-7'>Login to your account</h1>
                 <form className='px-8 py-7 space-y-5'>
                     <input placeholder='Email or Phone' className='border-2 py-4 border-red w-full rounded-md text-xl pl-5' />
                     <input placeholder='Password' className='border-2 py-4 border-red w-full rounded-md text-xl pl-5' />
 
-                    <div className='flex flex-col md:justify-between md:items-center  space-y-2 md:space-y-0'>
+                    <div className='flex flex-col md:flex-row md:justify-between md:items-center  space-y-2 md:space-y-0'>
                         <div>
                             <input type='checkbox' className='w-5 h-5' />
                             <p className='inline-block pl-2 md:pl-5 text-xl text-gray-400'> Remember me</p>
