@@ -1,10 +1,11 @@
 import React from 'react';
+import {GoPlus} from 'react-icons/go'
 
 const Footer = () => {
     return (
 
         <div
-            class="grid grid-cols-1 gap-5 pt-8 border-t border-gray-100 base:grid-cols-2 lg:grid-cols-4 lg:pt-16 bg-black pl-6 pb-3"
+            class="grid grid-cols-1 gap-2 pt-8 border-t border-gray-100 base:grid-cols-2 lg:grid-cols-4 lg:pt-16 bg-black pl-6 pb-4"
         >
             <div classNam=''>
                 <p class="font-medium text-lg text-brown">ABOUT US</p>
@@ -39,10 +40,15 @@ const Footer = () => {
                             <a href=" " class="text-gray-100 transition hover:opacity-75">
                                 Contact Us
                             </a>
-                            <a href=" " class="text-gray-100 transition hover:opacity-75">
+                            
+                        </li>
+                        <li>
+                        <a href=" " class="text-gray-100 transition hover:opacity-75">
                                 Submit Your Complain
                             </a>
-                            <a href=" " class="text-gray-100 transition hover:opacity-75">
+</li>
+                        <li>
+                        <a href=" " class="text-gray-100 transition hover:opacity-75">
                                 Contact Us
                             </a>
                         </li>
@@ -89,72 +95,72 @@ const Footer = () => {
                         <ul class="space-y-4 text-base">
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                    DHANMONDI
+                                <GoPlus className='inline-block font-bold'/> DHANMONDI
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                    MIRPUR
+                                <GoPlus className='inline-block font-bold'/>   MIRPUR
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                    UTTARA
+                               <GoPlus className='inline-block font-bold'/>     UTTARA
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                    SHANTINAGAR
+                                <GoPlus className='inline-block font-bold'/>  SHANTINAGAR
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                    BASHUNDHARA CITY
+                                <GoPlus className='inline-block font-bold'/> BASHUNDHARA CITY
                                 </a>
                             </li>
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                    GAZIPUR
+                                    <GoPlus className='inline-block font-bold'/> GAZIPUR
                                 </a>
                             </li>
                         </ul>
                         <ul class="space-y-4 text-base">
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                    NARAYNGANJ
+                                    <GoPlus className='inline-block font-bold'/> NARAYNGANJ
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                    SYLHET
+                                   <GoPlus className='inline-block font-bold'/>  SYLHET
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                    RAJSHAHI
+                                    <GoPlus className='inline-block font-bold'/> RAJSHAHI
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                    CHATTOGRAM
+                                    <GoPlus className='inline-block font-bold'/> CHATTOGRAM
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                    WARI
+                                 <GoPlus className='inline-block font-bold'/>    WARI
                                 </a>
                             </li>
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                    BANANI
+                                   <GoPlus className='inline-block font-bold'/>  BANANI
                                 </a>
                             </li>
                         </ul>
@@ -163,6 +169,8 @@ const Footer = () => {
             </div>
 
             <div>
+                <div> <img className='rounded-md h-12 w-32 mb-2 border-2' src='assets/gp2.png' alt=' '/>
+                    </div>
                 <p class="font-medium text-xl text-brown">Corporate Office:</p>
 
                 <nav aria-label="Footer Navigation - Legal" class="mt-6">
