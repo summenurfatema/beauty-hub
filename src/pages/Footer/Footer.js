@@ -1,5 +1,5 @@
 import React from 'react';
-import {GoPlus} from 'react-icons/go'
+import { GoPlus } from 'react-icons/go'
 
 const Footer = () => {
     return (
@@ -40,15 +40,15 @@ const Footer = () => {
                             <a href=" " class="text-gray-100 transition hover:opacity-75">
                                 Contact Us
                             </a>
-                            
+
                         </li>
                         <li>
-                        <a href=" " class="text-gray-100 transition hover:opacity-75">
+                            <a href=" " class="text-gray-100 transition hover:opacity-75">
                                 Submit Your Complain
                             </a>
-</li>
+                        </li>
                         <li>
-                        <a href=" " class="text-gray-100 transition hover:opacity-75">
+                            <a href=" " class="text-gray-100 transition hover:opacity-75">
                                 Contact Us
                             </a>
                         </li>
@@ -95,72 +95,72 @@ const Footer = () => {
                         <ul class="space-y-4 text-base">
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                <GoPlus className='inline-block font-bold'/> DHANMONDI
+                                    <GoPlus className='inline-block font-bold' /> DHANMONDI
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                <GoPlus className='inline-block font-bold'/>   MIRPUR
+                                    <GoPlus className='inline-block font-bold' />   MIRPUR
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                               <GoPlus className='inline-block font-bold'/>     UTTARA
+                                    <GoPlus className='inline-block font-bold' />     UTTARA
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                <GoPlus className='inline-block font-bold'/>  SHANTINAGAR
+                                    <GoPlus className='inline-block font-bold' />  SHANTINAGAR
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                <GoPlus className='inline-block font-bold'/> BASHUNDHARA CITY
+                                    <GoPlus className='inline-block font-bold' /> BASHUNDHARA CITY
                                 </a>
                             </li>
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                    <GoPlus className='inline-block font-bold'/> GAZIPUR
+                                    <GoPlus className='inline-block font-bold' /> GAZIPUR
                                 </a>
                             </li>
                         </ul>
                         <ul class="space-y-4 text-base">
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                    <GoPlus className='inline-block font-bold'/> NARAYNGANJ
+                                    <GoPlus className='inline-block font-bold' /> NARAYNGANJ
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                   <GoPlus className='inline-block font-bold'/>  SYLHET
+                                    <GoPlus className='inline-block font-bold' />  SYLHET
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                    <GoPlus className='inline-block font-bold'/> RAJSHAHI
+                                    <GoPlus className='inline-block font-bold' /> RAJSHAHI
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                    <GoPlus className='inline-block font-bold'/> CHATTOGRAM
+                                    <GoPlus className='inline-block font-bold' /> CHATTOGRAM
                                 </a>
                             </li>
 
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                 <GoPlus className='inline-block font-bold'/>    WARI
+                                    <GoPlus className='inline-block font-bold' />    WARI
                                 </a>
                             </li>
                             <li>
                                 <a href=" " class="text-gray-100 transition hover:opacity-75">
-                                   <GoPlus className='inline-block font-bold'/>  BANANI
+                                    <GoPlus className='inline-block font-bold' />  BANANI
                                 </a>
                             </li>
                         </ul>
@@ -169,8 +169,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <div> <img className='rounded-md h-12 w-32 mb-2 border-2' src='assets/gp2.png' alt=' '/>
-                    </div>
+
                 <p class="font-medium text-xl text-brown">Corporate Office:</p>
 
                 <nav aria-label="Footer Navigation - Legal" class="mt-6">
@@ -184,7 +183,9 @@ const Footer = () => {
 
                         </div>
 
-                        <button className='bg-brown text-white rounded-md px-3 py-2'>Appoinment</button>
+                        <button className='bg-brown text-white rounded-md px-3 py-2 mb-2'>Appoinment</button>
+                        <div> <img className='rounded-md h-12 w-32 mb-2 border-2' src='assets/gp2.png' alt=' ' />
+                        </div>
 
                     </div>
                 </nav>

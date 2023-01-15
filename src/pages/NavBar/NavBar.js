@@ -6,7 +6,7 @@ import { BsPerson, BsBagPlus, BsJustify } from 'react-icons/bs'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 import { BiPhone } from 'react-icons/bi'
 import { Link } from "react-router-dom";
-import {SlNotebook} from 'react-icons/sl'
+import { SlNotebook } from 'react-icons/sl'
 
 
 
@@ -18,7 +18,7 @@ const NavBar = () => {
             <Download />
             <TopNav />
             <div>
-                <div class="bg-gray-900">
+                <div class="bg-gray-900 sticky top-0">
                     <div class="px-4 -py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                         <div class="relative flex  items-center justify-between">
 
@@ -98,14 +98,14 @@ const NavBar = () => {
                                             </Link>
                                             <li>
                                                 <div className='flex -ml-5'>
-                                                <img src='assets/block.png' className=' h-8 w-10' alt=' '/> <p className='text-2xl font-semibold text-yellow-500 tracking-wider uppercase'>My Wallet</p>
+                                                    <img src='assets/block.png' className=' h-8 w-10' alt=' ' /> <p className='text-2xl font-semibold text-yellow-500 tracking-wider uppercase'>My Wallet</p>
                                                 </div>
-                                                </li>
+                                            </li>
                                             <li className=''>
                                                 <div className='flex -ml-5 -mt-5'>
-                                                <img src='assets/file.png' className=' h-8 w-10' alt=' '/> <p className='text-2xl font-semibold text-yellow-500 tracking-wider uppercase'>Orders</p>
+                                                    <img src='assets/file.png' className=' h-8 w-10' alt=' ' /> <p className='text-2xl font-semibold text-yellow-500 tracking-wider uppercase'>Orders</p>
                                                 </div>
-                                                </li>
+                                            </li>
                                         </ul>
                                     </div>
 
