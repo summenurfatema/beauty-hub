@@ -4,10 +4,10 @@ import { AiOutlineYoutube } from 'react-icons/ai'
 
 const Bottom = () => {
     return (
-        <div className=' px-9 py-7 bg-gray-800'>
+        <div className=' px-9 py-7 bg-black'>
             <div className='flex justify-between items-center'>
                 <div>
-                    <p>Copyright 2023 © Bio-Xin Cosmeceuticals</p>
+                    <p className='text-white'>Copyright 2023 © Beauty Hub Cosmeceuticals</p>
                 </div>
 
                 <div className='flex space-x-2'>
