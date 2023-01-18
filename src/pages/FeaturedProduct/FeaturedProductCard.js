@@ -3,18 +3,21 @@ import { FaStar } from "react-icons/fa";
 import { GiShoppingCart } from "react-icons/gi";
 import { AiOutlineHeart } from "react-icons/ai";
 
-const FeaturedProductCard = ({ cat }) => {
+const FeaturedProductCard = ({ category }) => {
+    const { name, img, price } = category;
 
     return (
-        <div className="group cursor-pointer py-5 rounded-md overflow-hidden border-2">
+        <div className="group cursor-pointer  rounded-md overflow-hidden border-2">
             <div>
-                <img src={cat.img} alt="" />
+                <img className='w-full h-80' src={img} alt="" />
             </div>
             <div>
-                <small>{cat.name}</small>
-                {/*         
-        <p className=" text-pink-500 font-bold">৳{price}</p> */}
-                <button className="px-10 py-2 hover:bg-gray-500 hover:text-white bg-pink-400 mx-auto w-full transition-all rounded-sm duration-300">
+                <small className='flex space-x-1 text-gray-500 px-2'><FaStar />
+                    <FaStar /><FaStar /><FaStar /><FaStar /></small>
+                <small className='px-2'>{name}</small>
+
+                <p className=" text-brown text-base pt-5 font-bold px-2">৳{price}</p>
+                <button className="px-10 py-2 hover:bg-gray-500 hover:text-white bg-brown mx-auto w-full transition-all rounded-sm duration-300">
                     <GiShoppingCart className="inline mr-2"></GiShoppingCart>
                     Buy Now
                 </button>
