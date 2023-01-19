@@ -5,6 +5,7 @@ import Categories from './Categories/Categories';
 import Dermo from './Dermo/Dermo';
 import FeaturedProduct from './FeaturedProduct/FeaturedProduct';
 import Personalized from './Personalized/Personalized';
+import Slider from './Slider/Slider';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <FeaturedProduct />
             <Dermo />
             <Personalized />
+            <Slider />
 
         </div>
     );
