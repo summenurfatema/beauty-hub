@@ -6,6 +6,8 @@ import img1 from '../../image/img1.jpg'
 import img2 from '../../image/img2.jpg'
 import img3 from '../../image/img3.jpg'
 import img4 from '../../image/img4.jpg'
+import product1 from '../../image/product1.png'
+import product2 from '../../image/product2.png'
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -17,7 +19,7 @@ import 'swiper/css';
 
 import SliderCard from './SliderCard';
 
-const Slider = () => {
+const NewArrival = () => {
     const categories = [
         {
             'id': 1,
@@ -77,10 +79,10 @@ const Slider = () => {
     ]
     return (
         <div className='bg-gray-100'>
-            <div className='divider text-black px-20 py-12 '><span className=' border-2 border-brown px-4 py-3 text-xl'>Featured Product</span></div>
-            <div className='flex justify-between'>
+            <div className='divider text-black px-20 py-12 '><span className=' border-2 border-brown px-4 py-3 text-xl'>New Arrival</span></div>
+            <div className='flex justify-evenly'>
 
-                <div className='w-[300px]'>
+                <div className='w-[500px] mt-40'>
 
                     <Swiper
                         spaceBetween={3}
@@ -90,15 +92,15 @@ const Slider = () => {
                         modules={[Pagination]}
                         className="mySwiper"
                     >
-                        <SwiperSlide><img src={img1} alt='' /></SwiperSlide>
-                        <SwiperSlide><img src={img2} alt='' /></SwiperSlide>
+                        <SwiperSlide><img className='h-[500px] ' src={product1} alt='' /></SwiperSlide>
+                        <SwiperSlide><img className='h-[500px]' src={product2} alt='' /></SwiperSlide>
 
                     </Swiper>
                 </div>
 
 
                 {/* new Arrival */}
-                <div className='w-[800px]'>
+                <div className='w-[850px]'>
                     <Swiper
                         slidesPerView={3}
                         grid={{
@@ -131,7 +133,7 @@ const Slider = () => {
     );
 };
 
-export default Slider;
+export default NewArrival;
 
 
 
