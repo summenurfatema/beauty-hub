@@ -43,7 +43,7 @@ const BlogVideo = () => {
             <p className='text-2xl text-gray-800 tracking-wider text-center py-7 font-semibold'>SKIN CARE</p>
 
 
-            {/* <iframe width="560" height="315" src="https:.com/embe-yVKcbg" title="YouTube video player" frameborder="0" allow="alerometplay; c; encrypted-media; gyroce" llscreen></iframe> */}
+            {/* <iframe width="560" height="315" src="https:.com/embe-yVKcbg" title="YouTube video playeeborder="0" allow="alerometplay; c; encrypted-media; gyroce" llscreen></iframe> */}
             <Swiper
                 modules={[Navigation, Scrollbar, A11y]}
                 spaceBetween={30}
