@@ -5,7 +5,7 @@
         "category": " ",
         "sub-category": "new-arrival399",
         "price": 399,
-        "description": " ",
+        "description": "Are you looking for a brightening serum that can make your skin younger too? We have heard you. So let’s look down the description below to have your solution- ",
         "ingradients": [],
         "volume": 30,
         "image": " "
@@ -27,7 +27,7 @@
         "category": " ",
         "sub-category": "best-selling",
         "price": 799,
-        "description": " ",
+        "description": "Are you looking for a brightening serum that can make your skin younger too? We have heard you. So let’s look down the description below to have your solution- ",
         "ingradients": [],
         "volume": 50,
         "image": " "
@@ -181,7 +181,7 @@
         "category": " ",
         "sub-category": "special-offer",
         "price": 999,
-        "description": " ",
+        "description": "Are you looking for a brightening serum that can make your skin younger too? We have heard you. So let’s look down the description below to have your solution- ",
         "ingradients": [],
         "volume": 100,
         "image": " "
@@ -214,14 +214,14 @@
         "category": " ",
         "sub-category": "special-offer",
         "price": 399,
-        "description": " ",
+        "description": "Are you looking for a brightening serum that can make your skin younger too? We have heard you. So let’s look down the description below to have your solution- ",
         "ingradients": [],
         "volume": 30,
         "image": " "
     },
     {
         "'id": 21,
-        "name": " ",
+        "name": "Novaclear Advanced Brightening Serum ",
         "category": " ",
         "sub-category": "special-offer",
         "price": 799,
@@ -236,14 +236,14 @@
         "category": " ",
         "sub-category": "new-arrival",
         "price": 399,
-        "description": " ",
+        "description": " Are you looking for a sun protection cream for your skin that can save you from sun damage, sun spots, dark spots and finally the dangerous effect of Melasma due to sun damage? Then to get the solution let’s see the product description down below-",
         "ingradients": [],
         "volume": 30,
         "image": " "
     },
     {
         "'id": 23,
-        "name": " ",
+        "name": "Novaclear Advanced Brightening Serum ",
         "category": " ",
         "sub-category": "best-selling",
         "price": ,
@@ -258,7 +258,7 @@
         "category": " ",
         "sub-category": "special-offer",
         "price": 399,
-        "description": " ",
+        "description": " Are you looking for a sun protection cream for your skin that can save you from sun damage, sun spots, dark spots and finally the dangerous effect of Melasma due to sun damage? Then to get the solution let’s see the product description down below-",
         "ingradients": [],
         "volume": 30,
         "image": " "
@@ -276,7 +276,7 @@
     },
     {
         "'id": 26,
-        "name": " ",
+        "name": " Novaclear Advanced Brightening Serum",
         "category": " ",
         "sub-category": "new-arrival",
         "price": 399,
@@ -302,7 +302,7 @@
     },
     {
         "'id": 28,
-        "name": " ",
+        "name": "Novaclear Advanced Brightening Serum ",
         "category": " ",
         "sub-category": "special-offer",
         "price": ,
@@ -328,12 +328,16 @@
     },
     {
         "'id": 30,
-        "name": " ",
+        "name": " Novaclear Advanced Brightening Serum",
         "category": " ",
         "sub-category": "special-offer",
         "price": ,
         "description": " ",
-        "ingradients": [],
+        "ingradients": [
+            "Glutathione",
+            "Retinol",
+            "Vitamin C"
+        ],
         "volume": 100,
         "image": " "
     },
@@ -370,7 +374,11 @@
         "sub-category": "special-offer",
         "price": ,
         "description": " ",
-        "ingradients": [],
+        "ingradients": [
+            "Glutathione",
+            "Retinol",
+            "Vitamin C"
+        ],
         "volume": 100,
         "image": " "
     },
@@ -396,7 +404,11 @@
         "sub-category": "best-selling",
         "price": 799,
         "description": " ",
-        "ingradients": [],
+        "ingradients": [
+            "Glutathione",
+            "Retinol",
+            "Vitamin C"
+        ],
         "volume": 50,
         "image": " "
     },
@@ -421,8 +433,12 @@
         "category": " ",
         "sub-category": "new-arrival",
         "price": ,
-        "description": " ",
-        "ingradients": [],
+        "description": " Are you looking for a sun protection cream for your skin that can save you from sun damage, sun spots, dark spots and finally the dangerous effect of Melasma due to sun damage? Then to get the solution let’s see the product description down below-",
+        "ingradients": [
+            "Glutathione",
+            "Retinol",
+            "Vitamin C"
+        ],
         "volume": 50,
         "image": " "
     },
@@ -447,7 +463,7 @@
         "category": " ",
         "sub-category": "special-offer",
         "price": 799,
-        "description": " ",
+        "description": " Are you looking for a sun protection cream for your skin that can save you from sun damage, sun spots, dark spots and finally the dangerous effect of Melasma due to sun damage? Then to get the solution let’s see the product description down below-",
         "ingradients": [],
         "volume": 50,
         "image": " "
