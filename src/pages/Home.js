@@ -8,6 +8,7 @@ import FeaturedProduct from './FeaturedProduct/FeaturedProduct';
 import Personalized from './Personalized/Personalized';
 import NewArrival from './Slider/NewArrival';
 import Testimonial from './Testimonial/Testimonial';
+import Treatment from './Treatment/Treatment';
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
             <Personalized />
             <Testimonial />
             <BlogVideo />
+            <Treatment />
 
 
         </div>
