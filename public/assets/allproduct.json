@@ -292,7 +292,11 @@
         "sub-category": "best-selling",
         "price": 399,
         "description": " ",
-        "ingradients": [],
+        "ingradients": [
+            "Hyaluronic Acid",
+            "Rice Extract",
+            "Cetearyl Alcohol"
+        ],
         "volume": 30,
         "image": " "
     },
@@ -314,7 +318,11 @@
         "sub-category": "best-selling",
         "price": 399,
         "description": "",
-        "ingradients": "",
+        "ingradients": [
+            "Hyaluronic Acid",
+            "Rice Extract",
+            "Cetearyl Alcohol"
+        ],
         "volume": 30,
         "image": " "
     },
@@ -347,7 +355,11 @@
         "sub-category": "best-selling",
         "price": ,
         "description": " ",
-        "ingradients": [],
+        "ingradients": [
+            "Hyaluronic Acid",
+            "Rice Extract",
+            "Cetearyl Alcohol"
+        ],
         "volume": 100,
         "image": " "
     },
@@ -369,7 +381,11 @@
         "sub-category": "new-arrival",
         "price": 399,
         "description": " ",
-        "ingradients": [],
+        "ingradients": [
+            "Hyaluronic Acid",
+            "Rice Extract",
+            "Cetearyl Alcohol"
+        ],
         "volume": 30,
         "image": " "
     },
@@ -391,7 +407,11 @@
         "sub-category": "special-offer",
         "price": ,
         "description": " ",
-        "ingradients": [],
+        "ingradients": [
+            "Hyaluronic Acid",
+            "Rice Extract",
+            "Cetearyl Alcohol"
+        ],
         "volume": 50,
         "image": " "
     },
@@ -413,7 +433,11 @@
         "sub-category": "best-selling",
         "price": ,
         "description": " ",
-        "ingradients": [],
+        "ingradients": [
+            "Hyaluronic Acid",
+            "Rice Extract",
+            "Cetearyl Alcohol"
+        ],
         "volume": 100,
         "image": " "
     },
