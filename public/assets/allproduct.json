@@ -237,7 +237,12 @@
         "sub-category": "new-arrival",
         "price": 399,
         "description": " Are you looking for a sun protection cream for your skin that can save you from sun damage, sun spots, dark spots and finally the dangerous effect of Melasma due to sun damage? Then to get the solution let’s see the product description down below-",
-        "ingradients": [],
+        "ingradients": [
+            "Amino Acids",
+            "Serenoa Serrulata",
+            "Vitamins",
+            "Minerals"
+        ],
         "volume": 30,
         "image": " "
     },
@@ -281,7 +286,12 @@
         "sub-category": "new-arrival",
         "price": 399,
         "description": " ",
-        "ingradients": [],
+        "ingradients": [
+            "Amino Acids",
+            "Serenoa Serrulata",
+            "Vitamins",
+            "Minerals"
+        ],
         "volume": 30,
         "image": " "
     },
@@ -307,7 +317,12 @@
         "sub-category": "special-offer",
         "price": ,
         "description": " ",
-        "ingradients": [],
+        "ingradients": [
+            "Amino Acids",
+            "Serenoa Serrulata",
+            "Vitamins",
+            "Minerals"
+        ],
         "volume": 100,
         "image": " "
     },
@@ -399,7 +414,7 @@
     },
     {
         "'id": 35,
-        "name": " ",
+        "name": "Capilap Hair Care ",
         "category": " ",
         "sub-category": "best-selling",
         "price": 799,
@@ -414,7 +429,7 @@
     },
     {
         "'id": 36,
-        "name": " ",
+        "name": "Capilap Hair Care ",
         "category": " ",
         "sub-category": "special-offer",
         "price": 499,
@@ -459,7 +474,7 @@
     },
     {
         "'id": 39,
-        "name": " ",
+        "name": " Capilap Hair Care",
         "category": " ",
         "sub-category": "special-offer",
         "price": 799,
@@ -475,7 +490,12 @@
         "sub-category": "best-selling",
         "price": 999,
         "description": " Are you wishing to block calories and also control your appetite through supplement? Your wish is our command. We have the best supplement for you. Let’s look down the description below",
-        "ingradients": [],
+        "ingradients": [
+            "Amino Acids",
+            "Serenoa Serrulata",
+            "Vitamins",
+            "Minerals"
+        ],
         "volume": 100,
         "image": " "
     }
