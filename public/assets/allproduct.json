@@ -2,7 +2,7 @@
     {
         "'id": 1,
         "name": " Glicina Joints",
-        "category": " ",
+        "category": "spot",
         "sub-category": "new-arrival",
         "price": 399,
         "description": "Are you looking for a brightening serum that can make your skin younger too? We have heard you. So let’s look down the description below to have your solution- ",
@@ -18,7 +18,7 @@
     {
         "'id": 2,
         "name": "Glicina Joints ",
-        "category": " ",
+        "category": "spot",
         "sub-category": "new-arrival",
         "price": 799,
         "description": "Are you looking for a brightening serum that can make your skin younger too? We have heard you. So let’s look down the description below to have your solution- ",
@@ -34,7 +34,7 @@
     {
         "'id": 3,
         "name": "Mesotech Tricocure Hair Energy Boost ",
-        "category": " ",
+        "category": "spot",
         "sub-category": "best-selling",
         "price": 799,
         "description": "Are you looking for a brightening serum that can make your skin younger too? We have heard you. So let’s look down the description below to have your solution- ",
@@ -50,7 +50,7 @@
     {
         "'id": 4,
         "name": " Glicina Joints",
-        "category": " ",
+        "category": "spot",
         "sub-category": "new-arrival",
         "price": 999,
         "description": "Are you looking for a brightening serum that can make your skin younger too? We have heard you. So let’s look down the description below to have your solution- ",
@@ -66,7 +66,7 @@
     {
         "'id": 5,
         "name": "Mesotech Tricocure Hair Energy Boost ",
-        "category": " ",
+        "category": "spot",
         "sub-category": "new-arrival",
         "price": 399,
         "description": " Do you want to repair your skin tissues and also balancing collagen of skin? We have the best supplement for you. So let’s quickly look down the description below",
@@ -98,7 +98,7 @@
     {
         "'id": 7,
         "name": "Bio Care Soothing Freckle Cream ",
-        "category": " ",
+        "category": "spot",
         "sub-category": "new-arrival",
         "price": 999,
         "description": " Do you want to repair your skin tissues and also balancing collagen of skin? We have the best supplement for you. So let’s quickly look down the description below",
@@ -114,7 +114,7 @@
     {
         "'id": 8,
         "name": " Glicina Joints",
-        "category": " ",
+        "category": "spot",
         "sub-category": "new-arrival",
         "price": 799,
         "description": " Do you want to repair your skin tissues and also balancing collagen of skin? We have the best supplement for you. So let’s quickly look down the description below",
@@ -130,7 +130,7 @@
     {
         "'id": 9,
         "name": " Bio Care Soothing Freckle Cream",
-        "category": " ",
+        "category": "spot",
         "sub-category": "best-selling",
         "price": 399,
         "description": "Are you looking for a brightening serum that can make your skin younger too? We have heard you. So let’s look down the description below to have your solution- ",
@@ -162,7 +162,7 @@
     {
         "'id": 11,
         "name": " Mesotech Tricocure Hair Energy Boost",
-        "category": " ",
+        "category": "spot",
         "sub-category": "best-selling",
         "price": 799,
         "description": " Do you want to repair your skin tissues and also balancing collagen of skin? We have the best supplement for you. So let’s quickly look down the description below",
@@ -720,7 +720,7 @@
         "image": "https://images.unsplash.com/photo-1584949514123-474cfa705dfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTl8fGJlYXV0eSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
     },
     {
-        "'id": 7,
+        "id": 7,
         "name": "Bio Care Soothing Freckle Cream ",
         "category": " ",
         "sub-category": "new-arrival",
