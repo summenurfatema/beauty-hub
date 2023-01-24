@@ -349,7 +349,7 @@
     {
         "'id": 23,
         "name": "Novaclear Advanced Brightening Serum ",
-        "category": " ",
+        "category": "mature",
         "sub-category": "best-selling",
         "price": 30,
         "description": " Do you want to strengthen your hair by it’s structure? Then we have your solution. Let’s look down the description below",
@@ -365,7 +365,7 @@
     {
         "'id": 24,
         "name": " Novaclear Expert Protecting Cream ",
-        "category": " ",
+        "category": "mature",
         "sub-category": "special-offer",
         "price": 399,
         "description": " Are you looking for a sun protection cream for your skin that can save you from sun damage, sun spots, dark spots and finally the dangerous effect of Melasma due to sun damage? Then to get the solution let’s see the product description down below-",
@@ -381,7 +381,7 @@
     {
         "'id": 25,
         "name": " Mesotech Tricocure Hair Energy Boost",
-        "category": " ",
+        "category": "mature",
         "sub-category": "special-offer",
         "price": 30,
         "description": "Do you want to strengthen your hair by it’s structure? Then we have your solution. Let’s look down the description below ",
