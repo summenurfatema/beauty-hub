@@ -82,7 +82,7 @@
     {
         "'id": 6,
         "name": " Mesotech Tricocure Hair Energy Boost",
-        "category": " ",
+        "category": "whitening-category",
         "sub-category": "new-arrival",
         "price": 799,
         "description": "Are you looking for a brightening serum that can make your skin younger too? We have heard you. So let’s look down the description below to have your solution- ",
@@ -146,7 +146,7 @@
     {
         "'id": 10,
         "name": " Mesotech Tricocure Hair Energy Boost",
-        "category": " ",
+        "category": "whitening-category",
         "sub-category": "new-arrival",
         "price": 399,
         "description": "Do you want to repair your skin tissues and also balancing collagen of skin? We have the best supplement for you. So let’s quickly look down the description below ",
@@ -178,7 +178,7 @@
     {
         "'id": 12,
         "name": "Bio Care Soothing Freckle Cream ",
-        "category": " ",
+        "category": "whitening-category",
         "sub-category": "new-arrival",
         "price": 799,
         "description": "Are you looking for a brightening serum that can make your skin younger too? We have heard you. So let’s look down the description below to have your solution- ",
@@ -413,7 +413,7 @@
     {
         "'id": 27,
         "name": " Novaclear Expert Protecting Cream ",
-        "category": " ",
+        "category": "whitening-category",
         "sub-category": "best-selling",
         "price": 399,
         "description": "Do you want to strengthen your hair by it’s structure? Then we have your solution. Let’s look down the description below ",
@@ -444,7 +444,7 @@
     {
         "'id": 29,
         "name": "Novaclear Redless Soothing Night Cream ",
-        "category": " ",
+        "category": "whitening-category",
         "sub-category": "best-selling",
         "price": 399,
         "description": " Do you want to repair your skin tissues and also balancing collagen of skin? We have the best supplement for you. So let’s quickly look down the description below",
@@ -474,7 +474,7 @@
     {
         "'id": 31,
         "name": " Novaclear Redless Soothing Night Cream",
-        "category": " ",
+        "category": "whitening-category",
         "sub-category": "new-arrival",
         "price": 399,
         "description": "  Do you want to repair your skin tissues and also balancing collagen of skin? We have the best supplement for you. So let’s quickly look down the description below",
@@ -786,7 +786,7 @@
     {
         "'id": 11,
         "name": " Mesotech Tricocure Hair Energy Boost",
-        "category": " ",
+        "category": "whitening-category",
         "sub-category": "best-selling",
         "price": 799,
         "description": " Do you want to repair your skin tissues and also balancing collagen of skin? We have the best supplement for you. So let’s quickly look down the description below",
@@ -1098,7 +1098,7 @@
     {
         "'id": 31,
         "name": " Novaclear Redless Soothing Night Cream",
-        "category": " ",
+        "category": "whitening-category",
         "sub-category": "best-selling",
         "price": 399,
         "description": "  Do you want to repair your skin tissues and also balancing collagen of skin? We have the best supplement for you. So let’s quickly look down the description below",
@@ -1129,7 +1129,7 @@
     {
         "'id": 33,
         "name": " Novaclear Redless Soothing Night Cream",
-        "category": " ",
+        "category": "whitening-category",
         "sub-category": "featured-product",
         "price": 30,
         "description": " Tricocure is the most revolutionary and complete formula to reduce the main hair loss causes. The formula of Tricocure is enriched with numerous active ingredients: Vascular regrowth factor, Cutaneous microcirculation enhancer, 5-alpha reductase inhibitors and a pool of nutrients and restructuring ingredients are the Tricocure core.",
@@ -1234,7 +1234,7 @@
     {
         "'id": 40,
         "name": "Chitosan+ Fat burning ",
-        "category": " ",
+        "category": "whitening-category",
         "sub-category": "new-arrival",
         "price": 999,
         "description": " Are you wishing to block calories and also control your appetite through supplement? Your wish is our command. We have the best supplement for you. Let’s look down the description below",
