@@ -642,7 +642,7 @@
     {
         "'id": 2,
         "name": "Glicina Joints ",
-        "category": " ",
+        "category": "moisturizer-category",
         "sub-category": "featured-product",
         "price": 799,
         "description": "Are you looking for a brightening serum that can make your skin younger too? We have heard you. So let’s look down the description below to have your solution- ",
@@ -658,7 +658,7 @@
     {
         "'id": 3,
         "name": "Mesotech Tricocure Hair Energy Boost ",
-        "category": " ",
+        "category": "moisturizer-category",
         "sub-category": "best-selling",
         "price": 799,
         "description": "Are you looking for a brightening serum that can make your skin younger too? We have heard you. So let’s look down the description below to have your solution- ",
@@ -674,7 +674,7 @@
     {
         "'id": 4,
         "name": " Glicina Joints",
-        "category": " ",
+        "category": "moisturizer-category",
         "sub-category": "new-arrival",
         "price": 999,
         "description": "Are you looking for a brightening serum that can make your skin younger too? We have heard you. So let’s look down the description below to have your solution- ",
