@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y, Grid } from 'swiper';
 // import Swiper and modules styles
@@ -20,63 +20,69 @@ import 'swiper/css';
 import SliderCard from './SliderCard';
 
 const NewArrival = () => {
-    const categories = [
-        {
-            'id': 1,
-            'name': 'WHITENING & BRIGHTENING',
-            'img': img1,
-            'price': 400
-        },
-        {
-            'id': 2,
-            'name': 'WHITENING & BRIGHTENING',
-            'img': img2,
-            'price': 499
-        },
-        {
-            'id': 2,
-            'name': 'OILY & ACNE SKIN CARE',
-            'img': img3,
-            'price': 399
-        },
-        {
-            'id': 3,
-            'name': 'EXCLUSIVE SKIN CARE',
-            'img': img4,
-            'price': 299
+    // const categories = [
+    //     {
+    //         'id': 1,
+    //         'name': 'WHITENING & BRIGHTENING',
+    //         'img': img1,
+    //         'price': 400
+    //     },
+    //     {
+    //         'id': 2,
+    //         'name': 'WHITENING & BRIGHTENING',
+    //         'img': img2,
+    //         'price': 499
+    //     },
+    //     {
+    //         'id': 2,
+    //         'name': 'OILY & ACNE SKIN CARE',
+    //         'img': img3,
+    //         'price': 399
+    //     },
+    //     {
+    //         'id': 3,
+    //         'name': 'EXCLUSIVE SKIN CARE',
+    //         'img': img4,
+    //         'price': 299
 
-        },
-        {
-            'id': 4,
-            'name': 'MOISTURIZER',
-            'img': img3,
-            'price': 599
-        },
-        {
-            'id': 5,
-            'name': 'PREMIUM SKINCLINIC PRODUCTS',
-            'img': img2,
-            'price': 499
-        },
-        {
-            'id': 6,
-            'name': 'DAILY SKIN CARE',
-            'img': img3,
-            'price': 499
-        },
-        {
-            'id': 7,
-            'name': 'MATURE SKIN CARE',
-            'img': img4,
-            'price': 599
-        },
-        {
-            'id': 8,
-            'name': 'HYPERPIGMENTATION, SPOT & SCAR',
-            'img': img3,
-            'price': 699
-        }
-    ]
+    //     },
+    //     {
+    //         'id': 4,
+    //         'name': 'MOISTURIZER',
+    //         'img': img3,
+    //         'price': 599
+    //     },
+    //     {
+    //         'id': 5,
+    //         'name': 'PREMIUM SKINCLINIC PRODUCTS',
+    //         'img': img2,
+    //         'price': 499
+    //     },
+    //     {
+    //         'id': 6,
+    //         'name': 'DAILY SKIN CARE',
+    //         'img': img3,
+    //         'price': 499
+    //     },
+    //     {
+    //         'id': 7,
+    //         'name': 'MATURE SKIN CARE',
+    //         'img': img4,
+    //         'price': 599
+    //     },
+    //     {
+    //         'id': 8,
+    //         'name': 'HYPERPIGMENTATION, SPOT & SCAR',
+    //         'img': img3,
+    //         'price': 699
+    //     }
+    // ]
+    const [newArrival, setNewArrival] = useState([])
+    useEffect(() => {
+        fetch('http://localhost:5000/allproduct/new-arrival')
+            .then(res => res.json())
+            .then(data => setNewArrival(data))
+    }, [newArrival]);
     return (
         <div className='bg-gray-100'>
             <div className='divider text-black px-20 py-12 '><span className=' border-2 border-brown px-4 py-3 text-xl'>New Arrival</span></div>
@@ -114,7 +120,7 @@ const NewArrival = () => {
                         className="mySwiper"
                     >
                         {
-                            categories.map(newProduct =>
+                            newArrival.map(newProduct =>
                                 <SwiperSlide>
                                     <SliderCard newProduct={newProduct} />
                                 </SwiperSlide>

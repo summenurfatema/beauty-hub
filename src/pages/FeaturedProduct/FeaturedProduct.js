@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 // import Swiper and modules styles
@@ -73,6 +73,12 @@ const FeaturedProduct = () => {
             'price': 699
         }
     ]
+    const [featuredProduct, setFeaturedProduct] = useState([])
+    useEffect(() => {
+        fetch('http://localhost:5000/allproduct/featured-product')
+            .then(res => res.json())
+            .then(data => setFeaturedProduct(data))
+    }, [featuredProduct]);
     return (
         <div className='bg-gray-100'>
             <div className='divider text-black px-20 py-12 '><span className=' border-2 border-brown px-4 py-3 text-xl'>Featured Product</span></div>
@@ -89,7 +95,7 @@ const FeaturedProduct = () => {
 
 
                     {
-                        categories.map(category =>
+                        featuredProduct.map(category =>
                             <SwiperSlide key={category.id}>
                                 <FeaturedProductCard category={category} />
                             </SwiperSlide>

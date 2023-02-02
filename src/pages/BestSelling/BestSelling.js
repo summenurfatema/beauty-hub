@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y, Grid } from 'swiper';
 // import Swiper and modules styles
@@ -17,65 +17,73 @@ import "swiper/css/grid";
 
 import 'swiper/css';
 import BestSellingCard from './BestSellingCard';
+import { useLoaderData } from 'react-router-dom';
 
 const BestSelling = () => {
-    const categories = [
-        {
-            'id': 1,
-            'name': 'WHITENING & BRIGHTENING',
-            'img': img1,
-            'price': 400
-        },
-        {
-            'id': 2,
-            'name': 'WHITENING & BRIGHTENING',
-            'img': img2,
-            'price': 499
-        },
-        {
-            'id': 2,
-            'name': 'OILY & ACNE SKIN CARE',
-            'img': img3,
-            'price': 399
-        },
-        {
-            'id': 3,
-            'name': 'EXCLUSIVE SKIN CARE',
-            'img': img4,
-            'price': 299
+    // const categories = [
+    //     {
+    //         'id': 1,
+    //         'name': 'WHITENING & BRIGHTENING',
+    //         'img': img1,
+    //         'price': 400
+    //     },
+    //     {
+    //         'id': 2,
+    //         'name': 'WHITENING & BRIGHTENING',
+    //         'img': img2,
+    //         'price': 499
+    //     },
+    //     {
+    //         'id': 2,
+    //         'name': 'OILY & AC SKIN CARE',
+    //         'img': img3,
+    //         'price': 399
+    //     },
+    //     {
+    //         'id': 3,
+    //         'name': 'EXCLUSIVE SKIN CARE',
+    //         'img': img4,
+    //         'price': 299
 
-        },
-        {
-            'id': 4,
-            'name': 'MOISTURIZER',
-            'img': img3,
-            'price': 599
-        },
-        {
-            'id': 5,
-            'name': 'PREMIUM SKINCLINIC PRODUCTS',
-            'img': img2,
-            'price': 499
-        },
-        {
-            'id': 6,
-            'name': 'DAILY SKIN CARE',
-            'img': img3,
-            'price': 499
-        },
-        {
-            'id': 7,
-            'name': 'MATURE SKIN CARE',
-            'img': img4,
-            'price': 599
-        },
-        {
-            'id': 8,
-            'name': 'HYPERPIGMENTATION, SPOT & SCAR',
-            'img': img3,
-            'price': 699
-        }
-    ]
+    //     },
+    //     {
+    //         'id': 4,
+    //         'name': 'MOISTURIZER',
+    //         'img': img3,
+    //         'price': 599
+    //     },
+    //     {
+    //         'id': 5,
+    //         'name': 'PREMIUM SKINCLINIC PRODUCTS',
+    //         'img': img2,
+    //         'price': 499
+    //     },
+    //     {
+    //         'id': 6,
+    //         'name': 'DAILY SKIN CARE',
+    //         'img': img3,
+    //         'price': 499
+    //     },
+    //     {
+    //         'id': 7,
+    //         'name': 'MATURE SKIN CARE',
+    //         'img': img4,
+    //         'price': 599
+    //     },
+    //     {
+    //         'id': 8,
+    //         'name': 'HYPERPIGMENTATION, SPOT & SCAR',
+    //         'img': img3,
+    //         'price': 699
+    //     }
+    // ]
+    const [bestSelling, setBestSelling] = useState([])
+    useEffect(() => {
+        fetch('http://localhost:5000/allproduct/best-selling')
+            .then(res => res.json())
+            .then(data => setBestSelling(data))
+    }, [bestSelling]);
+        
     return (
         <div className='bg-gray-100'>
             <div className='divider text-black px-20 py-12 '><span className=' border-2 border-brown px-4 py-3 text-xl'>Best Selling</span></div>
@@ -113,7 +121,7 @@ const BestSelling = () => {
                         className="mySwiper"
                     >
                         {
-                            categories.map(newProduct =>
+                            bestSelling.map(newProduct =>
                                 <SwiperSlide>
                                     <BestSellingCard newProduct={newProduct} />
                                 </SwiperSlide>

@@ -1,3 +1,4 @@
+import BestSelling from "../pages/BestSelling/BestSelling";
 import Home from "../pages/Home";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
@@ -22,6 +23,11 @@ export const router = createBrowserRouter([
             {
                 path: '/login',
                 element: <Login />
+            },
+            {
+                path: '/allroduct/:subcategory',
+                element: <BestSelling />,
+                loader: ({ params }) => fetch(`http://localhost:5000/allproduct/${params.subcategory}`)
             }
         ]
     }

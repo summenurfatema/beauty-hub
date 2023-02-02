@@ -4,12 +4,12 @@ import { GiShoppingCart } from "react-icons/gi";
 import { AiOutlineHeart } from "react-icons/ai";
 
 const FeaturedProductCard = ({ category }) => {
-    const { name, img, price } = category;
+    const { name, image, price } = category;
 
     return (
         <div className="group cursor-pointer  rounded-md overflow-hidden border-2">
             <div>
-                <img className='w-full h-80' src={img} alt="" />
+                <img className='w-full h-80' src={image} alt="" />
             </div>
             <div>
                 <small className='flex space-x-1 text-gray-500 px-2'><FaStar />
